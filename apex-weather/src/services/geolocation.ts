@@ -127,7 +127,7 @@ async function getIPLocation(): Promise<IPLocationResponse | null> {
 /**
  * Save last successful location to localStorage
  */
-export function saveLastLocation(lat: number, lng: number, city: string, country?: string): void {
+export function saveLastLocation(lat: number, lng: number, city: string): void {
   const location: StoredLocation = {
     lat,
     lng,

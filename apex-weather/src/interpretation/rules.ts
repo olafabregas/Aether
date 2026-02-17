@@ -4,7 +4,7 @@
 // Most specific rules first, fallback rule last
 // ============================================================================
 
-import type { InterpretationRule, WeatherSnapshot } from '../types/interpretation.types';
+import type { InterpretationRule} from '../types/interpretation.types';
 
 // ============================================================================
 // TEMPERATURE RULES

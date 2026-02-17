@@ -15,7 +15,6 @@ import type {
 export function processHourlyForecast(
   forecastData: ForecastResponse
 ): HourlyForecastItem[] {
-  const now = Date.now();
   const hourly: HourlyForecastItem[] = [];
   
   // Get first 5 forecast entries (next ~15 hours, we'll take first 5)

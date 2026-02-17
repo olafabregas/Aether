@@ -383,9 +383,7 @@ nvm use 18
 ### Input Sanitization
 
 **City search**: Input is URL-encoded and passed to OpenWeatherMap's geocoding API. No direct injection risk.
-
 **Coordinates**: Validated as numbers before API calls. Bounded to valid lat/lng ranges.
-
 **LocalStorage**: Only stores weather data (no PII). Keys are predictable but contain no sensitive data.
 
 ### Rate Limiting Bypass
